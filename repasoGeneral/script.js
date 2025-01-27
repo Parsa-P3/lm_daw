@@ -84,3 +84,34 @@ function completarTarea (elementoBoton) {
     //Añadir la clase con el fondo verde al elemento padre del botón
     elementoPadre.classList.add("completada");
 }
+// <!DOCTYPE html>
+// <html lang="es">
+// <head>
+//     <meta charset="UTF-8">
+//     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+//     <title>Formulario en JavaScript</title>
+// </head>
+// <body>
+//     <h2>Formulario de ejemplo</h2>
+//     <form id="miFormulario">
+//         <label for="nombre">Nombre:</label>
+//         <input type="text" id="nombre" name="nombre" required><br><br>
+
+//         <label for="email">Correo electrónico:</label>
+//         <input type="email" id="email" name="email" required><br><br>
+
+//         <label for="mensaje">Mensaje:</label><br>
+//         <textarea id="mensaje" name="mensaje" required></textarea><br><br>
+
+//         <button type="submit">Enviar</button>
+//     </form>
+
+//     <script>
+//         // Seleccionamos el formulario y lo manejamos en el JavaScript
+//         document.getElementById('miFormulario').addEventListener('submit', function(event) {
+//             event.preventDefault(); // Evita que el formulario se envíe de forma tradicional
+
+//             // Obtener los valores de los campos del formulario
+//             const nombre = document.getElementById('nombre').value;
+//             const email = document.getElementById('email').value;
+//             const mensaje = document.getElementById('mensaje')
